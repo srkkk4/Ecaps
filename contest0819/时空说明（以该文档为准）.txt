@@ -1,0 +1,4 @@
+1 card.cpp 1500ms 256MB
+2 sort.cpp 1000ms 128MB
+3 email.cpp 1000ms 256MB
+4 offsheet 2500ms 256MB

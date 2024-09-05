@@ -1,0 +1,6 @@
+①根据下发的知识点罗列文件，统计知识点的学习情况（提示：将每个模块中《内容》里的知识点分成三部分：已学过，没学过可以自学，没学过需要上课。然后把已学过的知识点不管，另外两部分的知识点分别放到对应列中）
+
+②利用能力综合提升提单 https://studyingfather.com/archives/841 结合 oi.wiki 进行阶段2、3的部分内容的复习
+
+③学习使用NOI LIUNX系统（学生分享讨论）自学博客1：https://www.luogu.com/article/rzf4tmat 自学博客2：https://www.luogu.com/article/nisrdckk
+
