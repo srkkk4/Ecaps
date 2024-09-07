@@ -2,28 +2,24 @@
 // https://blog.csdn.net/Qiuker_jl/article/details/109528164
 #include <bits/stdc++.h>
 #define mod 998244353
-#define MOD 2333
 #define MAXN 233333
 using namespace std;
 int n;
 int a[MAXN];
-int dp[MAXN][2];
+int dp[MAXN];
 int main(){
     cin>>n;
     for (int i=1;i<=n;i++) cin>>a[i];
-    dp[1][1]=1; dp[1][0]=1;
-    for (int i=2;i<=n;i++){
+    for (int i=1;i<=n;i++){
+        dp[i]=1;
         for (int j=1;j<=i-1;j++){
-            if (a[i]>a[j]) continue;
-            dp[i][1]=(dp[i][1]+dp[j][1])%mod;
-            dp[i][0]=(dp[i][0]+dp[j][0])%mod;
-            if (a[j]%MOD!=0) dp[i][1]=(dp[i][1]+dp[j][0])%mod;
+            if (a[i]/2333<=a[j]/2333&&a[i]%2333<=a[j]%2333){
+                (dp[i]+=dp[j])%=mod;
+            }
         }
     }
-    for (int i=1;i<=n;i++) cout<<dp[i][1]<<" ";
-    cout<<endl;
     int ANS=0;
-    for (int i=2;i<=n;i++) ANS=(ANS+dp[i][1])%mod;
-    cout<<ANS<<endl;
+    for (int i=1;i<=n;i++) (ANS+=dp[i])%=mod;
+    cout<<ANS-n<<endl;
     return 0;
 }
