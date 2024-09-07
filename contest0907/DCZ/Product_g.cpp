@@ -1,4 +1,5 @@
 // https://www.luogu.com.cn/problem/T508983?contestId=197293
+// https://blog.csdn.net/Qiuker_jl/article/details/109528164
 #include <bits/stdc++.h>
 #define mod 998244353
 #define MOD 2333
