@@ -1,0 +1,25 @@
+// https://www.luogu.com.cn/problem/T508983?contestId=197293
+// https://blog.csdn.net/Qiuker_jl/article/details/109528164
+#include <bits/stdc++.h>
+#define mod 998244353
+#define MAXN 233333
+using namespace std;
+int n;
+int a[MAXN];
+int dp[MAXN];
+int main(){
+    cin>>n;
+    for (int i=1;i<=n;i++) cin>>a[i];
+    for (int i=1;i<=n;i++){
+        dp[i]=1;
+        for (int j=1;j<=i-1;j++){
+            if (a[i]/2333<=a[j]/2333&&a[i]%2333<=a[j]%2333){
+                (dp[i]+=dp[j])%=mod;
+            }
+        }
+    }
+    int ANS=0;
+    for (int i=1;i<=n;i++) (ANS+=dp[i])%=mod;
+    cout<<ANS-n<<endl;
+    return 0;
+}
