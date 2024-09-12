@@ -1,13 +1,5 @@
 {
     "files.associations": {
-        "ostream": "cpp",
-        "*.tcc": "cpp",
-        "iostream": "cpp",
-        "chrono": "cpp",
-        "complex": "cpp",
-        "type_traits": "cpp",
-        "cmath": "cpp",
-        "random": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "enabled"
+        "iostream": "cpp"
+    }
 }
