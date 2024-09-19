@@ -1,0 +1,1 @@
+{"name":"Local: sum_g","url":"/home/noi/Ecaps/test0915/source/DCZ/sum_g.cpp","tests":[{"id":1726736445335,"input":"10 2\n10 -1 2 2 2 2 2 2 -1 10\n","output":"32"},{"id":1726736452127,"input":"5 10\n-1 -1 -1 -1 -1\n","output":"-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/noi/Ecaps/test0915/source/DCZ/sum_g.cpp","group":"local","local":true}
