@@ -3,21 +3,46 @@
 #include <bits/stdc++.h>
 #define mod 998244353
 #define MAXN 233333
+#define int long long
 using namespace std;
 int n;
 int a[MAXN];
 int dp[MAXN];
-int main(){
+int t[2335][2335];
+int lowbit(int x){
+    return x&-x;
+}
+int sum(int s,int x){
+    int res=0;
+    for (int p=x;p>=1;p-=lowbit(p)){
+        res+=t[s][p];
+    }
+    return res;
+}
+void add(int s,int x){
+    for (int p=x;p<=2333+2;p+=lowbit(p)){
+        // cout<<"ok\n";
+        t[s][p]++;
+    }
+    return;
+}
+signed main(){
     cin>>n;
     for (int i=1;i<=n;i++) cin>>a[i];
     for (int i=1;i<=n;i++){
-        dp[i]=1;
-        for (int j=1;j<=i-1;j++){
-            if (a[i]/2333<=a[j]/2333&&a[i]%2333<=a[j]%2333){
-                (dp[i]+=dp[j])%=mod;
-            }
+        add(a[i]/2333,(a[i]%2333)+2);
+        for (int j=a[i]/2333;j<=110;j++){
+            (dp[i]+=sum(j,2333+2)-sum(j,(a[i]%2333)+1))%=mod;
         }
+        // cout<<dp[i]<<" ";
     }
+    // cout<<endl;
+    // for (int i=0;i<=10;i++){
+    //     for (int j=0;j<=10;j++){
+    //         cout<<t[i][j]<<" ";
+    //     }
+    //     cout<<endl;
+    // }
     int ANS=0;
     for (int i=1;i<=n;i++) (ANS+=dp[i])%=mod;
     cout<<ANS-n<<endl;
