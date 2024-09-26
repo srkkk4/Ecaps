@@ -31,6 +31,7 @@ signed main(){
     for (int i=1;i<=n;i++) cin>>a[i];
     for (int i=1;i<=n;i++){
         add(a[i]/2333,(a[i]%2333)+2);
+        cout<<sum(a[i]/2333,2333+2)<<" "<<sum(a[i]/2333,(a[i]%2333)+1)<<endl;
         for (int j=a[i]/2333;j<=110;j++){
             (dp[i]+=sum(j,2333+2)-sum(j,(a[i]%2333)+1))%=mod;
         }
