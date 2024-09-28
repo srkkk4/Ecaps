@@ -1,0 +1,1 @@
+{"name":"Local: C_P4377","url":"/home/noi/Ecaps/test0926贪心构造/C_P4377.cpp","tests":[{"id":1727484888989,"input":"3 15\n20 21\n10 11\n30 31","output":"1066"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/noi/Ecaps/test0926贪心构造/C_P4377.cpp","group":"local","local":true}
