@@ -1,1 +1,0 @@
-{"name":"Local: 1972","url":"/home/noi/Ecaps/program/1972.cpp","tests":[{"id":1727581915558,"input":"6\n1 2 3 4 3 5\n3\n1 2\n3 5\n2 6","output":"2\n2\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/noi/Ecaps/program/1972.cpp","group":"local","local":true}
