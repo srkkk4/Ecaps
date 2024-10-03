@@ -6,16 +6,15 @@ int n,K;
 long long dp[MAXN][MAXN];
 long long C[MAXN][MAXN];
 void inC(){
-    C[1][1]=1;
-    for (int i=2;i<=250;i++){
-        for (int j=1;j<=250;j++){
-            if (j==1) C[i][j]=(C[i-1][j]+1)%mod;
-            else C[i][j]=(C[i-1][j-1]+C[i-1][j-1])%mod;
+    for (int i=0;i<=251;i++){
+        C[i][0]=C[i][i]=1;
+        for (int j=1;j<i;j++){
+            C[i][j]=(C[i-1][j-1]+C[i-1][j])%mod;
         }
     }
     return;
 }
-long long qpow(int x,long long y){
+long long qpow(long long x,long long y){
     long long res=1;
     while (y){
         if (y&1) res=(res*x)%mod;
@@ -28,15 +27,19 @@ int main(){
     inC();
     cin>>n>>K; n--;
     dp[0][0]=1;
-    for (int i=1;i<=n;i++){
-        for (int j=1;j<=K;j++){
-            for (int t=1;t<=i;t++){
-                dp[i][j]=(dp[i][j]+dp[i-t][j-1]*C[i][t]*qpow(K-j+1,t*(i-1)/2))%mod;
+    for (int i=1;i<=K;i++){
+        for (int j=0;j<=n;j++){
+            for (int t=j;t>=0;t--){
+                dp[i][j]=(dp[i][j]+dp[i-1][j-t]*C[j][t]%mod*qpow(K-i+1,t*(j-1)-C[t][2]%mod))%mod;
             }
         }
     }
-    long long ans=0;
-    for (int i=1;i<=K;i++) ans=(ans+dp[n][i])%mod;
-    cout<<ans<<endl;
+    // for (int i=1;i<=K;i++){
+    //     for (int j=1;j<=n;j++){
+    //         cout<<dp[i][j]<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+    cout<<dp[K][n]<<endl;
     return 0;
 }
