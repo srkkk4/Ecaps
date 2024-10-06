@@ -65,9 +65,9 @@ int LCA(register int x,register int y){
     return x;
 }
 int main(){
-    // ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
-    freopen("tree69.in","r",stdin);
-    // freopen("tree69.ans","w",stdout);
+    ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+    freopen("tree.in","r",stdin);
+    freopen("tree.out","w",stdout);
     cin>>n>>m>>k;
     for (register int i=1;i<n;i++){
         register int u,v,w; cin>>u>>v>>w;
@@ -82,11 +82,10 @@ int main(){
     dep[root]=1;
     inSize(root);
     solve(root);
-    // cout<<ans<<'\n';
+    cout<<ans<<'\n';
     for (register int i=1;i<=m;i++){
         // if (i==m/2) cout<<"ok\n";
         register int x,y; cin>>x>>y;
-        cout<<dep[x]<<" "<<dep[y]<<'\n';
         K[x]=0; K[y]=1;
         while (dep[x]>dep[y]){
             ans-=faq[x]*min(size[x],size[root]-size[x]);
@@ -110,7 +109,7 @@ int main(){
             ans+=faq[y]*min(size[y],size[root]-size[y]);
             y=fa[y];
         }
-        // cout<<ans<<'\n';
+        cout<<ans<<'\n';
     }
     return 0;
 }
