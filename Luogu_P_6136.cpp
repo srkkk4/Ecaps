@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 #define MAXN 100003
+#define MAXM 1100003 //树组开大点啊兄台
 using namespace std;
-int n;
+int n,m;
 std::mt19937 Rand(9023645);
 struct D{
     int ch[2],val,key,size;
@@ -9,7 +10,7 @@ struct D{
         ch[0]=ch[1]=0; val=x; key=Rand(); size=1;
         return;
     }
-}t[MAXN];
+}t[MAXM];
 int root,cnt;
 void pushup(int now){
     t[now].size=t[t[now].ch[0]].size+t[t[now].ch[1]].size+1;
@@ -92,22 +93,26 @@ int suf(int x){
 }
 int main(){
     ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
-    cin>>n;
-    for (int i=1;i<=n;i++){
+    cin>>n>>m;
+    for (int i=1;i<=n;i++) {int x; cin>>x; insert(x);}
+    int last=0,ans=0;
+    for (int i=1;i<=m;i++){
         int type,x; cin>>type>>x;
+        x^=last;
         if (type==1){
             insert(x);
         } else if (type==2){
             del(x);
         } else if (type==3){
-            cout<<get_rk(x)<<endl;
+            last=get_rk(x); ans^=last;
         } else if (type==4){
-            cout<<to_be_rk(x)<<endl;
+            last=to_be_rk(x); ans^=last;
         } else if (type==5){
-            cout<<pre(x)<<endl;
+            last=pre(x); ans^=last;
         } else {
-            cout<<suf(x)<<endl;
+            last=suf(x); ans^=last;
         }
     }
+    cout<<ans<<endl;
     return 0;
 }
