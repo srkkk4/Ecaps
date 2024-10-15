@@ -1,0 +1,13 @@
+Keyword:654857
+
+【9.30】wqs二分：https://www.cnblogs.com/MoCy233/p/18459372
+
+【10.9】LCA：https://www.cnblogs.com/MoCy233/p/18459373
+
+【10.10】重链剖分：https://www.cnblogs.com/MoCy233/p/18459374
+
+【10.13】FHQ-Treap：https://www.cnblogs.com/MoCy233/p/18463034
+
+Test1004总结：https://www.cnblogs.com/MoCy233/p/18459382
+
+Test1012总结：https://www.cnblogs.com/MoCy233/p/18461586
