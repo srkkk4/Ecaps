@@ -1,0 +1,1 @@
+{"name":"Luogu_P5684","url":"https://www.luogu.com.cn/problem/P5684","memoryLimit":128000,"timeLimit":1000,"tests":[{"input":"3\naba","output":"4","id":1729148673860},{"id":1729148673863,"input":"8\naabbbbcc","output":"39168"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_P_5684.cpp"}
