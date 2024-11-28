@@ -1,0 +1,1 @@
+{"name":"Luogu_CF474F","url":"https://www.luogu.com.cn/problem/CF474F","memoryLimit":256000,"timeLimit":1000,"tests":[{"id":1731587716225,"input":"5\n1 3 2 4 2\n4\n1 5\n2 5\n3 5\n4 5\n","output":"4\n4\n1\n1\n"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_CF_474_F.cpp"}

@@ -1,0 +1,1 @@
+{"name":"Luogu_P7044","url":"https://www.luogu.com.cn/problem/P7044","memoryLimit":512000,"timeLimit":1000,"tests":[{"input":"3 1\n(()","output":"6","id":1728043928026},{"id":1728043928086,"input":"3 2\n(()","output":"15"},{"id":1728094052043,"input":"3 0\n(()","output":"1"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_P_7044.cpp"}

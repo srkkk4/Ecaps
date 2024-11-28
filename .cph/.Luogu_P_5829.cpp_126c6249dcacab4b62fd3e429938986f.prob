@@ -1,0 +1,1 @@
+{"name":"Luogu_P5829","url":"https://www.luogu.com.cn/problem/P5829","memoryLimit":524288,"timeLimit":1000,"tests":[{"input":"aaaabbabbaa\n5\n2 4\n7 10\n3 4\n1 2\n4 11\n","output":"1\n1\n2\n0\n2\n","id":1731932992091},{"id":1731932992089,"input":"zzaaccaazzccaacczz\n3\n2 18\n10 18\n3 5\n","output":"1\n2\n0\n"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_P_5829.cpp"}

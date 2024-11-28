@@ -1,0 +1,1 @@
+{"name":"Luogu_P3332","url":"https://www.luogu.com.cn/problem/P3332","memoryLimit":512000,"timeLimit":1500,"tests":[{"id":1731634595081,"input":"2 5\n1 1 2 1\n1 1 2 2\n2 1 1 2\n2 1 1 1\n2 1 2 3","output":"1\n2\n1"},{"id":1731642783988,"input":"1 2\n1 1 1 -1\n2 1 1 1","output":"-1"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_P_3332.cpp"}

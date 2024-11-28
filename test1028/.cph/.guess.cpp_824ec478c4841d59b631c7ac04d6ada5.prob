@@ -1,0 +1,1 @@
+{"name":"Local: guess","url":"/home/noi/Ecaps/test1028/guess.cpp","tests":[{"id":1730101923479,"input":"2 3\nabc\nade","output":"1 2"},{"id":1730101932420,"input":"5 4\nabac\ncaab\nbcca\ncbaa\nacbb","output":"2 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/noi/Ecaps/test1028/guess.cpp","group":"local","local":true}

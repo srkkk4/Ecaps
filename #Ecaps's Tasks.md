@@ -1,0 +1,34 @@
+- Tarjan强连通分量&缩点
+    - [Pro] ok
+    - [Blog] ok
+- 割点、点双连通分量、边双连通分量
+    - P3388 【模板】割点（割顶） ok
+    - P1656  炸铁路 (割边) ok
+    - P8435 【模板】点双连通分量 ok
+    - P8436 【模板】边双连通分量 ok
+    - [Blog] 割点、割边 ok
+    - [Blog] 点双连通分量、边双连通分量 ok
+- 文艺平衡树
+    - [Pro]
+    - [Blog]
+- 前缀后缀优化建图
+    - ABC232G Modulo Shortest Path ok
+    - P6378 [PA2010] Riddle ok
+    - [Blog]
+- 2-SAT
+    - P4782 【模板】2-SAT ok
+    - [Blog] ok
+- 李超线段树
+- [动态开点线段树](https://www.cnblogs.com/light-house/p/11756048.html)
+    - [CF915E Physical Education Lessons](https://codeforces.com/problemset/problem/915/E) ok
+    - P3960 [NOIP2017 提高组] 列队
+- [线段树分治](https://www.cnblogs.com/moyujiang/p/15846318.html)
+    - P5787 二分图 /【模板】线段树分治 ok
+    - [11.11noip模拟九/1.先驱者](https://xinyoudui.com/ac/contest/777001C8D00052502C078F6/problem/19310) ok
+    - [Blog]
+- [线性基](https://oi-wiki.org/math/linear-algebra/basis/)
+    - P3812 【模板】线性基 ok
+    - P4151 [WC2011] 最大XOR和路径 ok
+    - [11.11noip模拟九/2.开拓者](https://xinyoudui.com/ac/contest/777001C8D00052502C078F6/problem/19311)
+    - [Blog]
+- 数学

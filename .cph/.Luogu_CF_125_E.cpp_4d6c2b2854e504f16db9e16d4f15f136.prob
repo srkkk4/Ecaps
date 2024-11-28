@@ -1,0 +1,1 @@
+{"name":"Luogu_CF125E","url":"https://www.luogu.com.cn/problem/CF125E","memoryLimit":256000,"timeLimit":8000,"tests":[{"id":1731714136667,"input":"4 5 2\n1 2 1\n2 3 1\n3 4 1\n1 3 3\n1 4 2\n","output":"3\n1 5 2 "}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_CF_125_E.cpp"}

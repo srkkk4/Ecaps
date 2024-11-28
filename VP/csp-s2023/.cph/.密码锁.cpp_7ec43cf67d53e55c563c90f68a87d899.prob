@@ -1,0 +1,1 @@
+{"name":"Local: 密码锁","url":"c:\\Users\\sdiup\\Desktop\\Ecaps\\VP\\csp-s2023\\密码锁.cpp","tests":[{"id":1726985386293,"input":"1\n0 0 1 1 5","output":"81"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sdiup\\Desktop\\Ecaps\\VP\\csp-s2023\\密码锁.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: true","url":"/home/noi/Ecaps/test1014/true.cpp","tests":[{"id":1728996783873,"input":"2 3 1000000","output":"26"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/noi/Ecaps/test1014/true.cpp","group":"local","local":true}

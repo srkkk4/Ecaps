@@ -1,0 +1,1 @@
+{"name":"Luogu_P5633","url":"https://www.luogu.com.cn/problem/P5633","memoryLimit":524288,"timeLimit":1000,"tests":[{"id":1731670489634,"input":"5 7 1 1\n1 3 1\n2 1 5\n4 2 3\n2 5 4\n5 1 2\n3 5 7\n4 1 6","output":"15"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_P_5633.cpp"}

@@ -1,0 +1,1 @@
+{"name":"Local: kingdom","url":"/home/noi/Ecaps/test1121/Ecaps/T1. 王国边缘/kingdom.cpp","tests":[{"id":1732150803866,"input":"8 3 2\n10001011\n1 2\n4 3","output":"5\n10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/noi/Ecaps/test1121/Ecaps/T1. 王国边缘/kingdom.cpp","group":"local","local":true}

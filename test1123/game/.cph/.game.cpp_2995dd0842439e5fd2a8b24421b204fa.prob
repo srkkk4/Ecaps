@@ -1,0 +1,1 @@
+{"name":"Local: game","url":"/home/noi/Ecaps/test1123/game/game.cpp","tests":[{"id":1732334546563,"input":"8\n304 282\n773 724\n274 481\n43 254\n813 110\n722 107\n140 62\n351 418","output":"43 43 63 63 63 288 341 1044"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/noi/Ecaps/test1123/game/game.cpp","group":"local","local":true}

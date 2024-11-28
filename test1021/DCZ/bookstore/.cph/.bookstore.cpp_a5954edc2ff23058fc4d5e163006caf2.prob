@@ -1,0 +1,1 @@
+{"name":"Local: bookstore","url":"/home/noi/Ecaps/test1021/DCZ/bookstore/bookstore.cpp","tests":[{"id":1729515265914,"input":"2\n5 6\n1 2\n2 3\n3 4\n4 1\n2 4\n4 5\n3 2\n1 2\n2 3","output":"3 2\n1 3 5\n2 4\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/noi/Ecaps/test1021/DCZ/bookstore/bookstore.cpp","group":"local","local":true}

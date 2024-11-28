@@ -1,0 +1,1 @@
+{"name":"Luogu_AT_hitachi2020_c","url":"https://www.luogu.com.cn/problem/AT_hitachi2020_c","memoryLimit":1048576,"timeLimit":2000,"tests":[{"id":1732280594234,"input":"5\r\n1 2\r\n1 3\r\n3 4\r\n3 5","output":"1 2 5 4 3"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_AT_hitachi_2020_c.cpp"}

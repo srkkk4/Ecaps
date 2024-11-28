@@ -1,0 +1,1 @@
+{"name":"Luogu_P3812","url":"https://www.luogu.com.cn/problem/P3812","memoryLimit":256000,"timeLimit":1000,"tests":[{"input":"2\n1 1","output":"1","id":1731406857461},{"id":1731406857531,"input":"4\n1 5 9 4\n","output":"13\n"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_P_3812.cpp"}

@@ -1,0 +1,1 @@
+{"name":"Local: Luogu_AT_abc_377_g","url":"/home/noi/Ecaps/Luogu_AT_abc_377_g.cpp","tests":[{"id":1730122323148,"input":"3\nsnuke\nsnuki\nsnuuk\n","output":"5\n2\n4\n"},{"id":1730122341447,"input":"3\nabc\narc\nagc\n","output":"3\n3\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/noi/Ecaps/Luogu_AT_abc_377_g.cpp","group":"local","local":true}

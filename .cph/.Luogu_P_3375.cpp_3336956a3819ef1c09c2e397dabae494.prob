@@ -1,0 +1,1 @@
+{"name":"Luogu_P3375","url":"https://www.luogu.com.cn/problem/P3375","memoryLimit":524288,"timeLimit":1000,"tests":[{"id":1731928713174,"input":"ABABABC\nABA\n","output":"1\n3\n0 0 1 \n"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_P_3375.cpp"}

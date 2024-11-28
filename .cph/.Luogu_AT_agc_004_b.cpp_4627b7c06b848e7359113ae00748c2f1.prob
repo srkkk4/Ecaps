@@ -1,0 +1,1 @@
+{"name":"Luogu_AT_agc004_b","url":"https://www.luogu.com.cn/problem/AT_agc004_b","memoryLimit":262144,"timeLimit":2000,"tests":[{"input":"2 10\r\n1 100","output":"12","id":1732062121069},{"input":"3 10\r\n100 1 100","output":"23","id":1732062121090},{"id":1732062121093,"input":"4 10\r\n1 2 3 4","output":"10"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_AT_agc_004_b.cpp"}

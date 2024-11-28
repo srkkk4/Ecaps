@@ -1,0 +1,1 @@
+{"name":"Local: match","url":"/home/noi/Ecaps/test1028/match.cpp","tests":[{"id":1730098001528,"input":"3\nXYD\nYYY\nDDX","output":"1"},{"id":1730098016713,"input":"5\nXXYXX\nDYXYD\nXDYDX\nYXYDY\nDDXYD","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/noi/Ecaps/test1028/match.cpp","group":"local","local":true}

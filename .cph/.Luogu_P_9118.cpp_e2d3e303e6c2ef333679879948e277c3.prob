@@ -1,0 +1,1 @@
+{"name":"Luogu_P9118","url":"https://www.luogu.com.cn/problem/P9118","memoryLimit":1048576,"timeLimit":1000,"tests":[{"input":"99 1","output":"99","id":1728096097586},{"input":"99 3","output":"7","id":1728096097629},{"id":1728096097569,"input":"99 2","output":"12"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_P_9118.cpp"}

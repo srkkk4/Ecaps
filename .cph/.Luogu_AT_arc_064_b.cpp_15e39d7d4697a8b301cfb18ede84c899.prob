@@ -1,0 +1,1 @@
+{"name":"Luogu_AT_arc064_b","url":"https://www.luogu.com.cn/problem/AT_arc064_b","memoryLimit":262144,"timeLimit":2000,"tests":[{"input":"aba","output":"Second","id":1732022089877},{"input":"abc","output":"First","id":1732022089863},{"id":1732022089838,"input":"abcab","output":"First"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_AT_arc_064_b.cpp"}
