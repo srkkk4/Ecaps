@@ -1,0 +1,1 @@
+{"name":"Luogu - P11453","url":"https://www.luogu.com.cn/problem/P11453","memoryLimit":262144,"timeLimit":2000,"tests":[{"id":1735357912197,"input":"3\n7 1\n8 4 10 1 2 6 7\n2 9 3\n7 2\n8 4 10 1 2 6 7\n2 9 3\n1 10 1\n7 2\n8 4 10 1 2 6 7\n2 9 3\n1 10 4","output":"4\n4\n3"}],"group":"luogu","srcPath":"/home/noi/Ecaps/Luogu_P_11453.cpp"}
